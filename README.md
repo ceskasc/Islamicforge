@@ -2,7 +2,7 @@
 
 **Günlük hayat için İslami dijital araçlar.** Minimal, mobil öncelikli ve ücretsiz bir araç koleksiyonu.
 
-[Portfolio](https://ceskacan.com) · [Repository](https://github.com/ceskasc/-slamicforge)
+[Portfolio](https://ceskacan.com) · [Repository](https://github.com/ceskasc/Islamicforge)
 
 ## İlk sürüm (v0.1.0)
 
@@ -40,7 +40,7 @@ Uygulamayı ES Module destekleyen statik sunucuda aç:
 
 Depolama yoluna bağlı olmayan göreli dosya bağlantıları kullanılır. Bir defa **Settings → Pages → Build and deployment → Source: GitHub Actions** seçilir. Sonra main dalına her gönderimde otomatik kontrol ve Pages yayını çalışır. İlgili Actions iş akışı: IslamicForge - Verify and Publish.
 
-**Repo adlandırması:** GitHub'da repo şu an başında kısa çizgiyle **-slamicforge** olarak kayıtlı. İstenen isim IslamicForge ise Settings → General → Repository name üzerinden yeniden adlandırılmalı. Yeni web yolu da bu adla değişir.
+**Repo adlandırması:** GitHub'da repo şu an **Islamicforge** olarak kayıtlı. İstenen isim IslamicForge ise Settings → General → Repository name üzerinden yeniden adlandırılmalı. Yeni web yolu da bu adla değişir.
 
 ## Kaynaklar
 
