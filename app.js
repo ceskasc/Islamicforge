@@ -102,7 +102,7 @@ function updateLanguage() {
   $("language-button").textContent = language.value === "tr" ? "EN" : "TR";
   $("today-label").textContent = new Intl.DateTimeFormat(language.value === "tr" ? "tr-TR" : "en-GB", { day: "numeric", month: "long", year: "numeric" }).format(new Date());
   openPage(location.hash.slice(1));
-  renderTasbih(); updateBearing();
+  updateMonths(); renderTasbih(); updateBearing();
   if (state.timings) { renderPrayer(); updateCountdown(); }
 }
 $("language-button").addEventListener("click", () => { language.value = language.value === "tr" ? "en" : "tr"; safeSet("if-lang", language.value); updateLanguage(); });
